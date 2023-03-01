@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+}
+
+body{
+    background-color: #fff;
+}
+
+section#atardecer {
+    background-image: url(imagen/tarde.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+section#atardecer .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.saludo{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nombre{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.nombre span{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: rgb(1, 146, 243);
+}
+
+.presentacion h1{
+    font-size: 35px;
+    margin: 10px;
+    text-transform: uppercase;
+    color:rgb(255, 102, 0);
+}
+
+section#anochecer{
+    background-image: url(imagen/noche.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.noche{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    max-width: 25%;
+    margin: 20px;
+}
+
+.noche h2 {
+    font-size: 30px;
+}
+.noche p{
+    color: #fff;
+}
+/*personalizacion de una lista en especifico*/
+.tema li{
+    color: #fff;
+}
+
+section#amanecer {
+    background-image: url(imagen/dia.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+section#amanecer .formulario {
+    width: 80px;
+    margin: 8ch;
+}
+
+section#amanecer div{
+    margin-left: 80px;
+    
+}
+
+section#amanecer p{
+    display: flex;
+    align-items:last baseline;
+    
+
+}
